@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars only if desired; never commit real secrets.
+repo_url = "https://github.com/YOUR-USERNAME/YOUR-REPOSITORY"
+git_branch = "main"
+region = "singapore"
+web_plan = "free"
+postgres_plan = "free"
+# Prefer setting TF_VAR_jwt_secret in your terminal instead of storing it here.
